@@ -1,0 +1,9 @@
+@use './../../mixxin/mixxin' as *; 
+
+.work-space--main-content {
+     background-color: #FFFFFF;   
+    width: 250px;
+    height: calc(100vh - 130px);
+    border-radius: 30px;
+    @include dFlex(row, center, center);
+}

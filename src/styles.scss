@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'nunito';
+    src: url('/fonts/nunito-Regular.ttf');   
+} 
+
 html,
 body {
     height: 100%;
@@ -5,13 +10,7 @@ body {
 
 body {
     margin: 0;
-    font-family: Roboto, "Helvetica Neue", sans-serif;
-}
-
-@mixin dFlex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: 'nunito';
 }
 
 a {

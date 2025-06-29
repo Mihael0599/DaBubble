@@ -1,1 +1,3 @@
-<app-login></app-login>
+<app-login *ngIf="!loginSuccess"></app-login>
+<app-header *ngIf="loginSuccess"></app-header>
+<app-main-content *ngIf="loginSuccess"></app-main-content>
