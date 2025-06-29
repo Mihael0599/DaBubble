@@ -1,0 +1,36 @@
+@use './../../mixxin/mixxin' as *;  
+
+header {
+    background-color: #ECEEFE;
+}
+
+.header-content {
+    font-family: 'nunito';
+    padding: 15px 20px 15px 20px;
+    max-width: 1440px;
+    @include dFlex(row, space-between, center, 40px);
+}
+
+.inputfield-search {
+    width: 800px;
+    height: 70px;
+    font-family: 'nunito';
+    font-size: 24px;
+    font-weight: 400;
+    @include dFlex(row, center, center); 
+    background-color: #FFFFFF;
+    color: #686868;
+    border: solid #FFFFFF 1px;
+    border-radius: 42px;
+    padding: 17.5px 45px 17.5px 45px;
+    &::placeholder {
+        color: #686868;
+        opacity: 1;
+    }
+}
+
+.profil-menu {
+    width: 342px;
+    height: 70px;
+    @include dFlex(column, center, center);
+}

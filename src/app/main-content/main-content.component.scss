@@ -1,0 +1,13 @@
+@use './../mixxin/mixxin' as *;  
+
+.main-content-container {
+   background-color: #ECEEFE; 
+   height: calc(100vh - 100px);
+}
+
+.main-container {
+    max-width: 1440px;
+    @include dFlex(row, center, center, 20px);
+    padding-left: 10px;
+    padding-right: 10px;
+}
